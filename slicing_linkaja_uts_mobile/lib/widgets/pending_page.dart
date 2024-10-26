@@ -12,7 +12,7 @@ class PendingPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/img/pending.png', // Ganti dengan path gambar yang sesuai
+              'assets/img/pnd.png', // Ganti dengan path gambar yang sesuai
               height: 200,
             ),
             const SizedBox(height: 24),

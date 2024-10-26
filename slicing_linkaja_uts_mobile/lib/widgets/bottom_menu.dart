@@ -19,26 +19,38 @@ class BottomMenu extends StatelessWidget {
       },
       selectedItemColor: Colors.red,
       unselectedItemColor: Colors.black,
-      items: const [
+      items: [
         BottomNavigationBarItem(
           label: "Beranda",
-          icon: FaIcon(FontAwesomeIcons.house, size: 30),
+          icon: Icon(Icons.house_outlined, size: 40),
         ),
         BottomNavigationBarItem(
           label: "Riwayat",
-          icon: FaIcon(FontAwesomeIcons.fileLines, size: 30),
+          icon: FaIcon(FontAwesomeIcons.fileLines, size: 35), // Perbesar ikon
         ),
         BottomNavigationBarItem(
-          label: "Bayar",
-          icon: FaIcon(FontAwesomeIcons.qrcode, size: 30),
+          icon: Container(
+            padding: const EdgeInsets.all(12.0), // Perbesar padding
+            decoration: const BoxDecoration(
+              color: Colors.red,
+              shape: BoxShape.rectangle,
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+            ),
+            child: const Icon(
+              Icons.qr_code,
+              size: 30.0, // Perbesar ukuran ikon
+              color: Colors.white,
+            ),
+          ),
+          label: 'Bayar',
         ),
         BottomNavigationBarItem(
           label: "Pesan",
-          icon: FaIcon(FontAwesomeIcons.envelope, size: 30),
+          icon: FaIcon(FontAwesomeIcons.envelope, size: 35), // Perbesar ikon
         ),
         BottomNavigationBarItem(
           label: "Profil",
-          icon: FaIcon(FontAwesomeIcons.user, size: 30),
+          icon: FaIcon(FontAwesomeIcons.user, size: 35), // Perbesar ikon
         ),
       ],
     );
