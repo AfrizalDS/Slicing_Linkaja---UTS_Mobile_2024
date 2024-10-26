@@ -19,4 +19,4 @@ https://photos.onedrive.com/share/0B4C5E35BB65DB4A!46285?cid=0B4C5E35BB65DB4A&re
 ## Dokumentasi Video Hasil
 
 **Ada di folder link drive berikut:**  
-https://drive.google.com/file/d/1LV-OnVA3tlH1wnQeSJWCSq8J2MfWDFL3/view?usp=sharing
+[https://drive.google.com/file/d/1LV-OnVA3tlH1wnQeSJWCSq8J2MfWDFL3/view?usp=sharing](https://drive.google.com/file/d/1GSVcOmd274whWmLwL4JXCmpywzwhLSst/view?usp=sharing)
